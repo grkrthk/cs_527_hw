@@ -1,0 +1,716 @@
+A    trunk/build.xml
+A    trunk/doap_lang.rdf
+A    trunk/NOTICE.txt
+A    trunk/default.properties
+A    trunk/LICENSE.txt
+A    trunk/RELEASE-NOTES.txt
+A    trunk/.gitignore
+A    trunk/src
+A    trunk/src/release-tools
+A    trunk/src/release-tools/build.properties.sample
+A    trunk/src/release-tools/build.xml
+A    trunk/src/assembly
+A    trunk/src/assembly/src.xml
+A    trunk/src/assembly/bin.xml
+A    trunk/src/media
+A    trunk/src/media/logo.xcf
+A    trunk/src/test
+A    trunk/src/test/resources
+A    trunk/src/test/resources/lang-708-input.txt
+A    trunk/src/test/resources/java.policy
+A    trunk/src/test/java
+A    trunk/src/test/java/org
+A    trunk/src/test/java/org/apache
+A    trunk/src/test/java/org/apache/commons
+A    trunk/src/test/java/org/apache/commons/lang3
+A    trunk/src/test/java/org/apache/commons/lang3/CharSetTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharRangeTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/RangeTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharUtilsPerfRun.java
+A    trunk/src/test/java/org/apache/commons/lang3/event
+A    trunk/src/test/java/org/apache/commons/lang3/event/EventUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsTrimEmptyTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/NotImplementedExceptionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ClassPathUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/TypeLiteralTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/ConstructorUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/InheritanceUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/StaticContainerChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Grandchild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/PrivatelyShadowedChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Bar.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/AnotherChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/PubliclyShadowedChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/AnotherParent.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/GenericTypeHolder.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Annotated.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Ambig.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/PublicChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Foo.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/GenericParent.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/StringParameterizedChild.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/GenericConsumer.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/Parent.java
+A    trunk/src/test/java/org/apache/commons/lang3/reflect/testbed/StaticContainer.java
+A    trunk/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder
+A    trunk/src/test/java/org/apache/commons/lang3/builder/SimpleToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ToStringStyleConcurrencyTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderConcurrencyTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/DiffTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/StandardToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/ToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderAndEqualsBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableFloatTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableObjectTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsIsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ConversionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsSubstringTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ValidateTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/HashSetvBitSetTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/RandomUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/AtomicInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/ConstantInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text
+A    trunk/src/test/java/org/apache/commons/lang3/text/FormattableUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrLookupTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrTokenizerTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/CompositeFormatTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrMatcherTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/WordUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/EntityArraysTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/LookupTranslatorTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/OctalUnescaperTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/UnicodeEscaperTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/translate/UnicodeUnpairedSurrogateRemoverTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/ImmutablePairTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/PairTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/ImmutableTripleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/TripleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/MutablePairTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/tuple/MutableTripleTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/math
+A    trunk/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharSetUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time
+A    trunk/src/test/java/org/apache/commons/lang3/time/StopWatchTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/FastDateFormat_ParserTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/DateFormatUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/exception
+A    trunk/src/test/java/org/apache/commons/lang3/exception/AbstractExceptionContextTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/exception/DefaultExceptionContextTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/exception/ContextedExceptionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/exception/ExceptionUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/BitFieldTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/CharEncodingTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/JavaVersionTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java
+A    trunk/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+A    trunk/src/main
+A    trunk/src/main/resources
+A    trunk/src/main/resources/templates
+A    trunk/src/main/java
+A    trunk/src/main/java/org
+A    trunk/src/main/java/org/apache
+A    trunk/src/main/java/org/apache/commons
+A    trunk/src/main/java/org/apache/commons/lang3
+A    trunk/src/main/java/org/apache/commons/lang3/BooleanUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/RandomUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/AtomicInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentException.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentRuntimeException.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/TimedSemaphore.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java
+A    trunk/src/main/java/org/apache/commons/lang3/text
+A    trunk/src/main/java/org/apache/commons/lang3/text/FormatFactory.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/FormattableUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/StrLookup.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/StrTokenizer.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/CompositeFormat.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/StrMatcher.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/WordUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnpairedSurrogateRemover.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/JavaUnicodeEscaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/CodePointTranslator.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java
+A    trunk/src/main/java/org/apache/commons/lang3/text/StrBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/math
+A    trunk/src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/math/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/math/Fraction.java
+A    trunk/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/MutableTriple.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/ImmutablePair.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/Pair.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/ImmutableTriple.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/Triple.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/tuple/MutablePair.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharSetUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception
+A    trunk/src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/ContextedException.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/ExceptionContext.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java
+A    trunk/src/main/java/org/apache/commons/lang3/exception/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/time
+A    trunk/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/DateParser.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/FormatCache.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/StopWatch.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/DateUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java
+A    trunk/src/main/java/org/apache/commons/lang3/time/DatePrinter.java
+A    trunk/src/main/java/org/apache/commons/lang3/BitField.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharEncoding.java
+A    trunk/src/main/java/org/apache/commons/lang3/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/EnumUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/ClassUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/StringUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/ObjectUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/JavaVersion.java
+A    trunk/src/main/java/org/apache/commons/lang3/RandomStringUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharSet.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharRange.java
+A    trunk/src/main/java/org/apache/commons/lang3/AnnotationUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/SerializationException.java
+A    trunk/src/main/java/org/apache/commons/lang3/Range.java
+A    trunk/src/main/java/org/apache/commons/lang3/ArrayUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/event
+A    trunk/src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java
+A    trunk/src/main/java/org/apache/commons/lang3/event/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/event/EventUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/ClassPathUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/NotImplementedException.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/Typed.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/ConstructorUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/InheritanceUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/TypeLiteral.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/SystemUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder
+A    trunk/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/StandardToStringStyle.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/Diffable.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/CompareToBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/RecursiveToStringStyle.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/IDKey.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/Builder.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/DiffResult.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/Diff.java
+A    trunk/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java
+A    trunk/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableInt.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/package-info.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/Mutable.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableLong.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableShort.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableByte.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java
+A    trunk/src/main/java/org/apache/commons/lang3/mutable/MutableObject.java
+A    trunk/src/main/java/org/apache/commons/lang3/LocaleUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/Conversion.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharSequenceUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/Validate.java
+A    trunk/src/main/java/org/apache/commons/lang3/CharUtils.java
+A    trunk/src/main/java/org/apache/commons/lang3/SerializationUtils.java
+A    trunk/src/site
+A    trunk/src/site/resources
+A    trunk/src/site/resources/download_lang.cgi
+A    trunk/src/site/resources/lang2-lang3-clirr-report.html
+A    trunk/src/site/resources/images
+A    trunk/src/site/resources/images/logo.png
+A    trunk/src/site/resources/release-notes
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-1.0.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-1.0.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.0.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.0.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.0.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.2.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.2.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.3.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.2.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.3.1.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.3.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.4.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-3.3.2.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.5.txt
+A    trunk/src/site/resources/release-notes/RELEASE-NOTES-2.6.txt
+A    trunk/src/site/xdoc
+A    trunk/src/site/xdoc/upgradeto2_0.xml
+A    trunk/src/site/xdoc/userguide.xml
+A    trunk/src/site/xdoc/upgradeto3_0.xml
+A    trunk/src/site/xdoc/upgradeto2_1.xml
+A    trunk/src/site/xdoc/building.xml
+A    trunk/src/site/xdoc/upgradeto2_2.xml
+A    trunk/src/site/xdoc/upgradeto2_3.xml
+A    trunk/src/site/xdoc/proposal.xml
+A    trunk/src/site/xdoc/upgradeto2_4.xml
+A    trunk/src/site/xdoc/upgradeto2_5.xml
+A    trunk/src/site/xdoc/upgradeto2_6.xml
+A    trunk/src/site/xdoc/developerguide.xml
+A    trunk/src/site/xdoc/index.xml
+A    trunk/src/site/xdoc/download_lang.xml
+A    trunk/src/site/xdoc/mail-lists.xml
+A    trunk/src/site/xdoc/release-history.xml
+A    trunk/src/site/xdoc/article3_0.xml
+A    trunk/src/site/xdoc/article2_4.xml
+A    trunk/src/site/xdoc/issue-tracking.xml
+A    trunk/src/site/xdoc/article2_5.xml
+A    trunk/src/site/site.xml
+A    trunk/src/changes
+A    trunk/src/changes/changes.xml
+A    trunk/src/changes/release-notes.vm
+A    trunk/build.properties.sample
+A    trunk/findbugs-exclude-filter.xml
+A    trunk/pom.xml
+A    trunk/README.md
+A    trunk/checkstyle.xml
+ U   trunk
+Checked out revision 1623235.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Lang 3.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+USER/trunk/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-lang3 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+USER/trunk && svn --non-interactive info
+USER/trunk
+[INFO] Storing buildNumber: 1620579 at timestamp: 1410301835459
+USER/trunk && svn --non-interactive info
+USER/trunk
+[INFO] Storing buildScmBranch: trunk
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+USER/trunk/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+USER/trunk/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-lang3 ---
+USER/trunk/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.lang3.reflect.InheritanceUtilsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in org.apache.commons.lang3.reflect.InheritanceUtilsTest
+Running org.apache.commons.lang3.reflect.FieldUtilsTest
+Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 sec - in org.apache.commons.lang3.reflect.FieldUtilsTest
+Running org.apache.commons.lang3.reflect.TypeUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 sec - in org.apache.commons.lang3.reflect.TypeUtilsTest
+Running org.apache.commons.lang3.reflect.MethodUtilsTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in org.apache.commons.lang3.reflect.MethodUtilsTest
+Running org.apache.commons.lang3.reflect.ConstructorUtilsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.apache.commons.lang3.reflect.ConstructorUtilsTest
+Running org.apache.commons.lang3.reflect.TypeLiteralTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.apache.commons.lang3.reflect.TypeLiteralTest
+Running org.apache.commons.lang3.tuple.MutablePairTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.commons.lang3.tuple.MutablePairTest
+Running org.apache.commons.lang3.tuple.MutableTripleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.tuple.MutableTripleTest
+Running org.apache.commons.lang3.tuple.ImmutableTripleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.tuple.ImmutableTripleTest
+Running org.apache.commons.lang3.tuple.TripleTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.apache.commons.lang3.tuple.TripleTest
+Running org.apache.commons.lang3.tuple.PairTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.tuple.PairTest
+Running org.apache.commons.lang3.tuple.ImmutablePairTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.tuple.ImmutablePairTest
+Running org.apache.commons.lang3.time.FastDatePrinterTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.743 sec - in org.apache.commons.lang3.time.FastDatePrinterTest
+Running org.apache.commons.lang3.time.FastDateFormat_ParserTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.414 sec - in org.apache.commons.lang3.time.FastDateFormat_ParserTest
+Running org.apache.commons.lang3.time.FastDateParserTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.195 sec - in org.apache.commons.lang3.time.FastDateParserTest
+Running org.apache.commons.lang3.time.FastDateFormatTest
+>>FastDateFormatTest: FastDateParser:1245  SimpleDateFormat:10515
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.439 sec - in org.apache.commons.lang3.time.FastDateFormatTest
+Running org.apache.commons.lang3.time.DateUtilsTest
+DateUtilsTest: Default Locale=en_US
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec - in org.apache.commons.lang3.time.DateUtilsTest
+Running org.apache.commons.lang3.time.StopWatchTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.782 sec - in org.apache.commons.lang3.time.StopWatchTest
+Running org.apache.commons.lang3.time.DateUtilsRoundingTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.apache.commons.lang3.time.DateUtilsRoundingTest
+Running org.apache.commons.lang3.time.DateUtilsFragmentTest
+Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec - in org.apache.commons.lang3.time.DateUtilsFragmentTest
+Running org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+Running org.apache.commons.lang3.time.DateFormatUtilsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.time.DateFormatUtilsTest
+Running org.apache.commons.lang3.time.DurationFormatUtilsTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.822 sec - in org.apache.commons.lang3.time.DurationFormatUtilsTest
+Running org.apache.commons.lang3.builder.ToStringStyleTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.apache.commons.lang3.builder.ToStringStyleTest
+Running org.apache.commons.lang3.builder.StandardToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.StandardToStringStyleTest
+Running org.apache.commons.lang3.builder.SimpleToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.SimpleToStringStyleTest
+Running org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+Running org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+Running org.apache.commons.lang3.builder.CompareToBuilderTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.lang3.builder.CompareToBuilderTest
+Running org.apache.commons.lang3.builder.HashCodeBuilderTest
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.apache.commons.lang3.builder.HashCodeBuilderTest
+Running org.apache.commons.lang3.builder.DiffTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.DiffTest
+Running org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+Running org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.344 sec - in org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest
+Running org.apache.commons.lang3.builder.EqualsBuilderTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.apache.commons.lang3.builder.EqualsBuilderTest
+Running org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+Running org.apache.commons.lang3.builder.DiffBuilderTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in org.apache.commons.lang3.builder.DiffBuilderTest
+Running org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+Running org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+Running org.apache.commons.lang3.builder.DiffResultTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.DiffResultTest
+Running org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+Running org.apache.commons.lang3.builder.DefaultToStringStyleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.builder.DefaultToStringStyleTest
+Running org.apache.commons.lang3.builder.ToStringBuilderTest
+Tests run: 74, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.095 sec - in org.apache.commons.lang3.builder.ToStringBuilderTest
+Running org.apache.commons.lang3.event.EventListenerSupportTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 sec - in org.apache.commons.lang3.event.EventListenerSupportTest
+Running org.apache.commons.lang3.event.EventUtilsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in org.apache.commons.lang3.event.EventUtilsTest
+Running org.apache.commons.lang3.CharSetTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.apache.commons.lang3.CharSetTest
+Running org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+Running org.apache.commons.lang3.text.translate.EntityArraysTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.translate.EntityArraysTest
+Running org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+Running org.apache.commons.lang3.text.translate.LookupTranslatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.text.translate.LookupTranslatorTest
+Running org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+Running org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+Running org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+Running org.apache.commons.lang3.text.translate.OctalUnescaperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.text.translate.OctalUnescaperTest
+Running org.apache.commons.lang3.text.StrTokenizerTest
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.apache.commons.lang3.text.StrTokenizerTest
+Running org.apache.commons.lang3.text.FormattableUtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.FormattableUtilsTest
+Running org.apache.commons.lang3.text.StrBuilderTest
+Tests run: 89, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in org.apache.commons.lang3.text.StrBuilderTest
+Running org.apache.commons.lang3.text.StrSubstitutorTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in org.apache.commons.lang3.text.StrSubstitutorTest
+Running org.apache.commons.lang3.text.StrMatcherTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.lang3.text.StrMatcherTest
+Running org.apache.commons.lang3.text.CompositeFormatTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.CompositeFormatTest
+Running org.apache.commons.lang3.text.WordUtilsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.lang3.text.WordUtilsTest
+Running org.apache.commons.lang3.text.ExtendedMessageFormatTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.328 sec - in org.apache.commons.lang3.text.ExtendedMessageFormatTest
+Running org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+Running org.apache.commons.lang3.text.StrLookupTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.text.StrLookupTest
+Running org.apache.commons.lang3.exception.ContextedExceptionTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.apache.commons.lang3.exception.ContextedExceptionTest
+Running org.apache.commons.lang3.exception.ExceptionUtilsTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec - in org.apache.commons.lang3.exception.ExceptionUtilsTest
+Running org.apache.commons.lang3.exception.DefaultExceptionContextTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.exception.DefaultExceptionContextTest
+Running org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+Running org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+Running org.apache.commons.lang3.ClassPathUtilsTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.ClassPathUtilsTest
+Running org.apache.commons.lang3.concurrent.BackgroundInitializerTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 sec - in org.apache.commons.lang3.concurrent.BackgroundInitializerTest
+Running org.apache.commons.lang3.concurrent.LazyInitializerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.apache.commons.lang3.concurrent.LazyInitializerTest
+Running org.apache.commons.lang3.concurrent.AtomicInitializerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.apache.commons.lang3.concurrent.AtomicInitializerTest
+Running org.apache.commons.lang3.concurrent.ConcurrentUtilsTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.apache.commons.lang3.concurrent.ConcurrentUtilsTest
+Running org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest
+Running org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest
+Running org.apache.commons.lang3.concurrent.TimedSemaphoreTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.177 sec - in org.apache.commons.lang3.concurrent.TimedSemaphoreTest
+Running org.apache.commons.lang3.concurrent.BasicThreadFactoryTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.lang3.concurrent.BasicThreadFactoryTest
+Running org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest
+Running org.apache.commons.lang3.concurrent.ConstantInitializerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.concurrent.ConstantInitializerTest
+Running org.apache.commons.lang3.ObjectUtilsTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.apache.commons.lang3.ObjectUtilsTest
+Running org.apache.commons.lang3.mutable.MutableShortTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.mutable.MutableShortTest
+Running org.apache.commons.lang3.mutable.MutableDoubleTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.lang3.mutable.MutableDoubleTest
+Running org.apache.commons.lang3.mutable.MutableLongTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.mutable.MutableLongTest
+Running org.apache.commons.lang3.mutable.MutableIntTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.lang3.mutable.MutableIntTest
+Running org.apache.commons.lang3.mutable.MutableObjectTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.mutable.MutableObjectTest
+Running org.apache.commons.lang3.mutable.MutableFloatTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.lang3.mutable.MutableFloatTest
+Running org.apache.commons.lang3.mutable.MutableBooleanTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.mutable.MutableBooleanTest
+Running org.apache.commons.lang3.mutable.MutableByteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.lang3.mutable.MutableByteTest
+Running org.apache.commons.lang3.math.IEEE754rUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.math.IEEE754rUtilsTest
+Running org.apache.commons.lang3.math.NumberUtilsTest
+Tests run: 86, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.apache.commons.lang3.math.NumberUtilsTest
+Running org.apache.commons.lang3.math.FractionTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec - in org.apache.commons.lang3.math.FractionTest
+Running org.apache.commons.lang3.CharRangeTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.apache.commons.lang3.CharRangeTest
+Running org.apache.commons.lang3.CharSetUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.CharSetUtilsTest
+Running org.apache.commons.lang3.ArrayUtilsRemoveTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.ArrayUtilsRemoveTest
+Running org.apache.commons.lang3.CharUtilsTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.lang3.CharUtilsTest
+Running org.apache.commons.lang3.RangeTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in org.apache.commons.lang3.RangeTest
+Running org.apache.commons.lang3.HashSetvBitSetTest
+Ratio=10% array=100 count=1 extract=26144947 bitset=2761989
+Ratio=17% array=100 count=10 extract=14575397 bitset=2619522
+Ratio=14% array=100 count=50 extract=15306491 bitset=2167047
+Ratio=3% array=100 count=100 extract=21778931 bitset=702932
+Ratio=87% array=1000 count=10 extract=17183044 bitset=15059808
+Ratio=53% array=1000 count=100 extract=35936141 bitset=19326031
+Ratio=10% array=1000 count=500 extract=89228785 bitset=9098299
+Ratio=1% array=1000 count=1000 extract=139397364 bitset=1527167
+Ratio=3% count=0 hash=8145181 bits=287479
+Ratio=31% count=5 hash=1519014 bits=475476
+Ratio=26% count=10 hash=2347181 bits=620260
+Ratio=19% count=200 hash=44629683 bits=8870422
+Ratio=15% count=50 hash=15166300 bits=2361132
+Ratio=26% count=100 hash=16358158 bits=4362002
+Ratio=23% count=1000 hash=142548026 bits=33986902
+Ratio=16% count=2000 hash=226668613 bits=36431235
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.1 sec - in org.apache.commons.lang3.HashSetvBitSetTest
+Running org.apache.commons.lang3.LocaleUtilsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.lang3.LocaleUtilsTest
+Running org.apache.commons.lang3.AnnotationUtilsTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.apache.commons.lang3.AnnotationUtilsTest
+Running org.apache.commons.lang3.StringEscapeUtilsTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 sec - in org.apache.commons.lang3.StringEscapeUtilsTest
+Running org.apache.commons.lang3.ConversionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.apache.commons.lang3.ConversionTest
+Running org.apache.commons.lang3.StringUtilsIsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.lang3.StringUtilsIsTest
+Running org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+Running org.apache.commons.lang3.RandomStringUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.apache.commons.lang3.RandomStringUtilsTest
+Running org.apache.commons.lang3.StringUtilsTest
+Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 sec - in org.apache.commons.lang3.StringUtilsTest
+Running org.apache.commons.lang3.StringUtilsTrimEmptyTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.lang3.StringUtilsTrimEmptyTest
+Running org.apache.commons.lang3.ArrayUtilsTest
+Tests run: 194, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in org.apache.commons.lang3.ArrayUtilsTest
+Running org.apache.commons.lang3.JavaVersionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.JavaVersionTest
+Running org.apache.commons.lang3.ClassUtilsTest
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec - in org.apache.commons.lang3.ClassUtilsTest
+Running org.apache.commons.lang3.EnumUtilsTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.apache.commons.lang3.EnumUtilsTest
+Running org.apache.commons.lang3.CharSequenceUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.CharSequenceUtilsTest
+Running org.apache.commons.lang3.SystemUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.SystemUtilsTest
+Running org.apache.commons.lang3.BitFieldTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.BitFieldTest
+Running org.apache.commons.lang3.NotImplementedExceptionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.NotImplementedExceptionTest
+Running org.apache.commons.lang3.ArrayUtilsAddTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.lang3.ArrayUtilsAddTest
+Running org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+Running org.apache.commons.lang3.SerializationUtilsTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.lang3.SerializationUtilsTest
+Running org.apache.commons.lang3.ValidateTest
+Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.lang3.ValidateTest
+Running org.apache.commons.lang3.RandomUtilsTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.RandomUtilsTest
+Running org.apache.commons.lang3.StringUtilsSubstringTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.StringUtilsSubstringTest
+Running org.apache.commons.lang3.CharEncodingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.lang3.CharEncodingTest
+Running org.apache.commons.lang3.BooleanUtilsTest
+Tests run: 71, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.lang3.BooleanUtilsTest
+
+Results :
+
+Tests run: 2561, Failures: 0, Errors: 0, Skipped: 5
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:18.570s
+[INFO] Finished at: Tue Sep 09 17:31:42 CDT 2014
+[INFO] Final Memory: 20M/337M
+[INFO] ------------------------------------------------------------------------

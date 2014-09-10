@@ -1,0 +1,13 @@
+#!/bin/bash
+project=test_suite
+function hw() {
+    # Clone the project.
+    git clone https://github.com/grkrthk/test_suite
+    # Go to a specific revision.
+    ( cd ${project}; git checkout b3a8658292bf3a17034a87b25411bdc474424b4a )
+     # Run the tests.
+    ( cd ${project}; ./configure )
+    ( cd ${project}; make test )
+}
+# Step 1 of the homework.
+hw | tee step3.txt

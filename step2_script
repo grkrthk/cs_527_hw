@@ -1,0 +1,19 @@
+#!/bin/bash
+project=trunk
+cwd=`pwd`
+
+# Print info about the machine.
+cat /proc/cpuinfo > cpu.info
+cat /proc/meminfo > mem.info
+
+function hw() {
+    # Clone the project.
+    svn checkout -r 1623235 http://svn.apache.org/repos/asf/commons/proper/lang/trunk/
+    # Go to a specific revision.
+    ( cd ${project}; )
+     # Run the tests.
+    ( cd ${project}; mvn test )
+}
+# Step 1 of the homework.
+hw | tee step2.txt
+sed -i 's/.*'"${cwd//\//\\/}"'/USER/g' step2.txt

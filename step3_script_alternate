@@ -1,0 +1,13 @@
+#!/bin/bash
+project=sqlite-src-3080600
+function hw() {
+    # Clone the project.
+    wget http://www.sqlite.org/2014/sqlite-src-3080600.zip
+    unzip sqlite-src-3080600.zip
+    # Go to a specific revision.
+    ( cd ${project}; ./configure)
+     # Run the tests.
+    ( cd ${project}; make test )
+}
+# Step 1 of the homework.
+hw | tee step3.txt
