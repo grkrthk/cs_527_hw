@@ -1,0 +1,335 @@
+U    pool/trunk/build.xml
+U    pool/trunk/src/changes/changes.xml
+U    pool/trunk/src/test/java/org/apache/commons/pool2/WaiterFactory.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/Waiter.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/MethodCall.java
+A    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestBaseGenericObjectPool.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestAbandonedObjectPool.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPoolClassLoaders.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestSoftRefOutOfMemory.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java
+U    pool/trunk/src/test/java/org/apache/commons/pool2/performance/PerformanceTest.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/EvictionTimer.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/BaseGenericObjectPool.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/AbandonedConfig.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/LinkedBlockingDeque.java
+U    pool/trunk/src/main/java/org/apache/commons/pool2/impl/SoftReferenceObjectPool.java
+U    pool/trunk/pom.xml
+Checked out revision 1628599.
+D    src/test/java/org/apache/commons/pool2/impl/TestBaseGenericObjectPool.java
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPoolClassLoaders.java
+U    src/test/java/org/apache/commons/pool2/impl/TestSoftRefOutOfMemory.java
+U    src/test/java/org/apache/commons/pool2/impl/TestAbandonedObjectPool.java
+U    src/test/java/org/apache/commons/pool2/WaiterFactory.java
+U    src/test/java/org/apache/commons/pool2/Waiter.java
+U    src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/EvictionTimer.java
+U    src/main/java/org/apache/commons/pool2/impl/BaseGenericObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java
+U    src/changes/changes.xml
+Updated to revision 1622750.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Pool 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-pool2 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-pool2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-pool2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildNumber: 1622424 at timestamp: 1412141139784
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildScmBranch: trunk
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+USER/pool/trunk/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/test-classes
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:selection (selection) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-pool2 ---
+USER/pool/trunk/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.pool2.impl.TestLinkedBlockingDeque
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.875 sec - in org.apache.commons.pool2.impl.TestLinkedBlockingDeque
+Running org.apache.commons.pool2.impl.TestPoolImplUtils
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in org.apache.commons.pool2.impl.TestPoolImplUtils
+Running org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.639 sec - in org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Running org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.889 sec - in org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Running org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.985 sec - in org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Running org.apache.commons.pool2.impl.TestEvictionConfig
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.pool2.impl.TestEvictionConfig
+Running org.apache.commons.pool2.impl.TestPooledSoftReference
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.pool2.impl.TestPooledSoftReference
+Running org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 160.984 sec - in org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Running org.apache.commons.pool2.impl.TestGenericObjectPool
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.381 sec - in org.apache.commons.pool2.impl.TestGenericObjectPool
+Running org.apache.commons.pool2.impl.TestSoftReferenceObjectPool
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.308 sec - in org.apache.commons.pool2.impl.TestSoftReferenceObjectPool
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.088 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.478 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.1 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.TestBasePoolableObjectFactory
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.apache.commons.pool2.TestBasePoolableObjectFactory
+Running org.apache.commons.pool2.TestPoolUtils
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.485 sec - in org.apache.commons.pool2.TestPoolUtils
+Running org.apache.commons.pool2.TestBaseKeyedPoolableObjectFactory
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.apache.commons.pool2.TestBaseKeyedPoolableObjectFactory
+Running org.apache.commons.pool2.TestBaseObjectPool
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.apache.commons.pool2.TestBaseObjectPool
+
+Results :
+
+Tests run: 258, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:restore (selection) @ commons-pool2 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5:09.948s
+[INFO] Finished at: Wed Oct 01 00:30:46 CDT 2014
+[INFO] Final Memory: 20M/246M
+[INFO] ------------------------------------------------------------------------
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java
+U    src/changes/changes.xml
+Updated to revision 1622300.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Pool 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-pool2 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-pool2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-pool2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildNumber: 1622092 at timestamp: 1412141458204
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildScmBranch: trunk
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+USER/pool/trunk/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/test-classes
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:selection (selection) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-pool2 ---
+USER/pool/trunk/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.951 sec - in org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Running org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.347 sec - in org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Running org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.931 sec - in org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Running org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 158.447 sec - in org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Running org.apache.commons.pool2.impl.TestGenericObjectPool
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.818 sec - in org.apache.commons.pool2.impl.TestGenericObjectPool
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.076 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.479 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.12 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.TestPoolUtils
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.475 sec - in org.apache.commons.pool2.TestPoolUtils
+
+Results :
+
+Tests run: 176, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:restore (selection) @ commons-pool2 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5:04.357s
+[INFO] Finished at: Wed Oct 01 00:35:57 CDT 2014
+[INFO] Final Memory: 20M/246M
+[INFO] ------------------------------------------------------------------------
+U    src/test/java/org/apache/commons/pool2/MethodCall.java
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java
+U    src/test/java/org/apache/commons/pool2/impl/TestAbandonedObjectPool.java
+U    src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
+U    src/test/java/org/apache/commons/pool2/performance/PerformanceTest.java
+U    src/main/java/org/apache/commons/pool2/impl/BaseGenericObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/AbandonedConfig.java
+U    src/main/java/org/apache/commons/pool2/impl/LinkedBlockingDeque.java
+U    src/main/java/org/apache/commons/pool2/impl/SoftReferenceObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java
+U    src/main/java/org/apache/commons/pool2/impl/EvictionTimer.java
+U    src/changes/changes.xml
+G    pom.xml
+U    build.xml
+Updated to revision 1621300.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Pool 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-pool2 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-pool2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-pool2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildNumber: 1612043 at timestamp: 1412141767446
+USER/pool/trunk && svn --non-interactive info
+USER/pool/trunk
+[INFO] Storing buildScmBranch: trunk
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+USER/pool/trunk/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-pool2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-pool2 ---
+[INFO] Changes detected - recompiling the module!
+USER/pool/trunk/target/test-classes
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:selection (selection) @ commons-pool2 ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-pool2 ---
+USER/pool/trunk/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.147 sec - in org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders
+Running org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 sec - in org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo
+Running org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.969 sec - in org.apache.commons.pool2.impl.TestAbandonedObjectPool
+Running org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 155.172 sec - in org.apache.commons.pool2.impl.TestGenericKeyedObjectPool
+Running org.apache.commons.pool2.impl.TestGenericObjectPool
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.416 sec - in org.apache.commons.pool2.impl.TestGenericObjectPool
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.085 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.648 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.69 sec - in org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy
+Running org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec - in org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy
+Running org.apache.commons.pool2.TestPoolUtils
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.553 sec - in org.apache.commons.pool2.TestPoolUtils
+
+Results :
+
+Tests run: 175, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:3.5.0:restore (selection) @ commons-pool2 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4:59.340s
+[INFO] Finished at: Wed Oct 01 00:41:03 CDT 2014
+[INFO] Final Memory: 19M/244M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+Tests run: 2497 , Total time: 1:18.462s
+Tests run: 160 , Total time: 28.469s
+Tests run: 176 , Total time: 28.502s
+Tests run: 109 , Total time: 35.799s
+Tests run: 42 , Total time: 19.056s
